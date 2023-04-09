@@ -42,12 +42,6 @@ def question6():
   print(num_lst2)
   print(num_lst3)
 
-
-
-
-
-
-
   
 def main():
   #question3()
