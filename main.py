@@ -2,20 +2,18 @@
 
 #
 def question3():
-  pass
+  #get a number
+  #Don't forget to convert the string into an integer
+  num = int(input("Please enter a number! \n"))
 
-#takes a number and 
-#Don't forget to convert the string into an integer
+  if num > 10:
+    print("Your number is greater than 10.")
 
+  elif num < 10:
+    print("Your number is less than 10.")
 
-#tells the user if the number is greater than 10,
-
-
-#less than 10, 
-
-
-#or equal to 10. 
-
+  else:
+    print("Your number is equal to 10.")
 
 
 def main():
